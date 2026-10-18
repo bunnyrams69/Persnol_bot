@@ -1,0 +1,44 @@
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+
+# SQLite Databases
+*.db
+*.db-journal
+*.db.bak
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Node.js & Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing & temp tooling
+.playwright-mcp/
+.agents/
